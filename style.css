@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2? family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 * {
-	margin: 1;
-	padding: 1;
+	margin: 2;
+	padding: 2;
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
 }
@@ -76,8 +76,8 @@ header .navigation li a {
 
 .content .textBox h2 {
 	color: white;
-	font-size: 2rem;
-	margin-bottom: 20px;
+	font-size: 3rem;
+	margin-bottom: 0px;
 	line-height: 1.4em;
 }
 
@@ -91,7 +91,7 @@ header .navigation li a {
 	padding: 6px 20px;
 	background: #ce08cec2;
 	color: white;
-	border-radius: 40px;
+	border-radius: 45px;
 	font-weight: 400;
 	letter-spacing: 2px;
 	text-decoration: none;
@@ -99,7 +99,7 @@ header .navigation li a {
 
 .sci {
 	position: absolute;
-	bottom: 40px;
+	bottom: 45px;
 	left: 100px;
 	display: flex;
 	justify-content: center;
@@ -114,8 +114,8 @@ header .navigation li a {
 	display: grid;
 	margin-left: 15px;
 	background: #222;
-	width: 50px;
-	height: 50px;
+	width: 45px;
+	height: 45px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -135,13 +135,13 @@ header .navigation li a {
 
 @media (max-width: 991px) {
 	header {
-		padding: 40px;
+		padding: 50px;
 	}
 	section {
-		padding: 150px 40px;
+		padding: 140px 30px;
 	}
 	.sci {
-		left: 40px;
+		left: 30px;
 	}
 	.content {
 		flex-direction: column;
@@ -172,10 +172,10 @@ header .navigation li a {
 	}
 	.toggle {
 		position: relative;
-		width: 30px;
-		height: 30px;
+		width: 20px;
+		height: 20px;
 		background: url(./img/menu\\(1\).png);
-		background-size: 30px;
+		background-size: 20px;
 		background-repeat: no-repeat;
 		background-position: center;
 		cursor: pointer;
@@ -183,9 +183,9 @@ header .navigation li a {
 	}
 	.toggle.active {
 		position: fixed;
-		right: 40px;
+		right: 30px;
 		background: url(./img/close\\(1\).png);
-		background-size: 25px;
+		background-size: 35px;
 		background-repeat: no-repeat;
 		background-position: center;
 	}
