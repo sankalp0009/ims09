@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="style1.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo-box">
+            <img src="img/profits (4).png" alt="Logo" class="logo" />
+        </div>
+        <div class="text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary-main">Login </span>
+                <span class="heading-primary-sub">Page</span>
+            </h1>
+        </div>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="navigation">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./services.html">Our Services</a></li>
+            <li>
+                <a href="./login.html">Login/ <span>Register</span></a>
+            </li>
+        </ul>
+    </header>
+    <div class="ur-form-grid">
+        <p class="user-registration-form-row user-registration-form-row--wide form-row form-row-wide">
+            <label for="username">Username or email address <span class="required">*</span></label> <span
+                class="input-wrapper">
+                <input placeholder="Enter Email Address or user name" type="text"
+                    class="user-registration-Input user-registration-Input--text input-text" name="username"
+                    id="username" value="">
+            </span>
+        </p>
+        <p class="user-registration-form-row user-registration-form-row--wide form-row form-row-wide">
+            <label for="password">Password <span class="required">*</span></label> <span class="input-wrapper">
+                <span class="password-input-group">
+                    <input placeholder="Enter Password"
+                        class="user-registration-Input user-registration-Input--text input-text" type="password"
+                        name="password" id="password">
+
+                </span>
+            </span>
+        </p>
+        <input type="submit" class="user-registration-Button button " name="login" value="Login">
+
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
