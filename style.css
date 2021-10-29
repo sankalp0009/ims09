@@ -6,6 +6,8 @@
 	font-family: "Poppins", sans-serif;
 }
 
+
+
 section {
 	position: relative;
 	width: 100%;
@@ -14,7 +16,7 @@ section {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background: #161616;
+	background:rgb(155, 155, 180);
 }
 
 section .circle {
@@ -54,7 +56,9 @@ header .navigation li {
 
 header .navigation li a {
 	display: inline-block;
-	color: red;
+	color: rgb(1, 15, 27);
+	border: #222;
+	
 	font-weight: 400;
 	text-decoration: none;
 	margin-left: 30px;
@@ -75,7 +79,7 @@ header .navigation li a {
 }
 
 .content .textBox h2 {
-	color: white;
+	color: rgb(19, 10, 10);
 	font-size: 3rem;
 	margin-bottom: 0px;
 	line-height: 1.4em;
